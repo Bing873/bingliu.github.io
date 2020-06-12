@@ -15,9 +15,13 @@ So I built the scene, debugged the .sln file in VS, and got an Error:Application
 This is an ApplicationNotAutenticated Error (check [CloudSpatialErrorCode Enum](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.spatialanchors.cloudspatialerrorcode)).
 
 So I added 
+
 **protected string SpatialAnchorsAccountDomain = "@myDomain";**
+
 after
+
 **protected string SpatialAnchorsAccountKey = "Set me";**
+
 
 and this time it works as expected.
 
