@@ -3,6 +3,7 @@ layout: post
 title: "Using AzureSpatialAnchors"
 subtitle: "Error: Application did not provide valid credentials and therefore could not authenticate with the Cloud Service."
 date: 2020-06-12 16:00
+
 ---
 
 **Error description:**
@@ -23,7 +24,7 @@ This is an ApplicationNotAutenticated Error (check [CloudSpatialErrorCode Enum](
 
 I added 
 
-‘protected string SpatialAnchorsAccountDomain = "@myDomain(use my own domain)";’
+'protected string SpatialAnchorsAccountDomain = "@myDomain(use my own domain)";'
 
 after
 
